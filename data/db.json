@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Books"
+    },
+    {
+      "id": 3,
+      "name": "Clothing"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "description": "Latest model smartphone with advanced features",
+      "price": 699.99,
+      "categoryId": 1,
+      "image": "smartphone.jpg",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "description": "High-performance laptop for work and play",
+      "price": 1299.99,
+      "categoryId": 2,
+      "image": "laptop.jpg",
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Fiction Book",
+      "description": "Bestselling fiction book by a renowned author",
+      "price": 19.99,
+      "categoryId": 3,
+      "image": "fiction_book.jpg",
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "description": "Comfortable and stylish jeans for everyday wear",
+      "price": 49.99,
+      "categoryId": 4,
+      "image": "jeans.jpg",
+      "stock": 75
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "description": "Feature-packed smartwatch with health tracking",
+      "price": 199.99,
+      "categoryId": 5,
+      "image": "smartwatch.jpg",
+      "stock": 40
+    },
+    {
+      "id": 6,
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console for an immersive experience",
+      "price": 499.99,
+      "categoryId": 6,
+      "image": "gaming_console.jpg",
+      "stock": 20
+    },
+    {
+      "id": 7,
+      "name": "Non-Fiction Book",
+      "description": "Inspiring non-fiction book with practical advice",
+      "price": 24.99,
+      "categoryId": 7,
+      "image": "non_fiction_book.jpg",
+      "stock": 60
+    },
+    {
+      "id": 8,
+      "name": "Dress",
+      "description": "Elegant dress suitable for various occasions",
+      "price": 79.99,
+      "categoryId": 8,
+      "image": "dress.jpg",
+      "stock": 50
+    },
+    {
+      "id": 9,
+      "name": "Headphones",
+      "description": "Noise-cancelling headphones for superior sound quality",
+      "price": 149.99,
+      "categoryId": 9,
+      "image": "headphones.jpg",
+      "stock": 35
+    },
+    {
+      "id": 10,
+      "name": "Blender",
+      "description": "High-power blender for smoothies and more",
+      "price": 89.99,
+      "categoryId": 10,
+      "image": "blender.jpg",
+      "stock": 25
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "orderId": 1,
+          "date": "2024-07-04",
+          "total": 1420.97,
+          "products": [
+            {
+              "productId": 2,
+              "quantity": 1
+            },
+            {
+              "productId": 4,
+              "quantity": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
