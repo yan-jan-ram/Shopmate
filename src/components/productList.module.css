@@ -1,0 +1,66 @@
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+}
+
+thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+thead th,
+tbody td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #b3e6d8;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #e0f4f1;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tbody tr:hover {
+  background-color: #007f6b;
+  color: whitesmoke;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #009879;
+  color: #009879;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #009879;
+  color: #ffffff;
+}

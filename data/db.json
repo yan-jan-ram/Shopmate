@@ -21,7 +21,8 @@
       "price": 699.99,
       "categoryId": 1,
       "image": "smartphone.jpg",
-      "stock": 50
+      "stock": 50,
+      "availability": "unavailable"
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "price": 1299.99,
       "categoryId": 2,
       "image": "laptop.jpg",
-      "stock": 30
+      "stock": 30,
+      "availability": "available"
     },
     {
       "id": 3,
@@ -39,7 +41,8 @@
       "price": 19.99,
       "categoryId": 3,
       "image": "fiction_book.jpg",
-      "stock": 100
+      "stock": 100,
+      "availability": "available"
     },
     {
       "id": 4,
@@ -48,7 +51,8 @@
       "price": 49.99,
       "categoryId": 4,
       "image": "jeans.jpg",
-      "stock": 75
+      "stock": 75,
+      "availability": "unavailable"
     },
     {
       "id": 5,
@@ -57,7 +61,8 @@
       "price": 199.99,
       "categoryId": 5,
       "image": "smartwatch.jpg",
-      "stock": 40
+      "stock": 40,
+      "availability": "unavailable"
     },
     {
       "id": 6,
@@ -66,7 +71,8 @@
       "price": 499.99,
       "categoryId": 6,
       "image": "gaming_console.jpg",
-      "stock": 20
+      "stock": 20,
+      "availability": "available"
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "price": 24.99,
       "categoryId": 7,
       "image": "non_fiction_book.jpg",
-      "stock": 60
+      "stock": 60,
+      "availability": "unavailable"
     },
     {
       "id": 8,
@@ -84,7 +91,8 @@
       "price": 79.99,
       "categoryId": 8,
       "image": "dress.jpg",
-      "stock": 50
+      "stock": 50,
+      "availability": "unavailable"
     },
     {
       "id": 9,
@@ -93,7 +101,8 @@
       "price": 149.99,
       "categoryId": 9,
       "image": "headphones.jpg",
-      "stock": 35
+      "stock": 35,
+      "availability": "unavailable"
     },
     {
       "id": 10,
@@ -102,7 +111,8 @@
       "price": 89.99,
       "categoryId": 10,
       "image": "blender.jpg",
-      "stock": 25
+      "stock": 25,
+      "availability": "available"
     }
   ],
   "users": [
